@@ -4,13 +4,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.notes_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
 .container {
     width: 100%;
     min-height: 100vh;
     background: #262a2f;
+    background-image: linear-gradient(to right, #26253f, #262a2f);
     color: #fff;
     padding-top: 4%;
-    padding-left: 10%;
+    padding: 5%;
 }
 .container h1 {
     display: flex;
@@ -24,8 +32,8 @@
 .container button {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to right, #ff9966, #ff5e62);
-    background: #AA4E2A;
+    background-image: linear-gradient(to right, #b349dd, #8e08c4);
+    /* background: #AA4E2A; */
     color: #fff;
     font-size: 16px;
     outline: 0;
@@ -41,15 +49,22 @@
 }
 .input_box {
     position: relative;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    
     width: 100%;
     max-width: 500px;
-    min-height: 150px;
-    background: #fff;
-    color: #333;
+    min-height: 350px;
+    background: #ceb945;
+    color: #000000;
     padding: 20px;
     margin: 20px 0;
     outline: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    font-size: 36px;
+    line-height: 48px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .input_box img {
     width: 25px;
@@ -58,3 +73,5 @@
     right: 15px;
     cursor: pointer;
 }
+
+
